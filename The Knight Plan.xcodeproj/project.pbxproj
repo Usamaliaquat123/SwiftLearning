@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52EDA86921B5334D00B33FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDA86821B5334D00B33FB6 /* AppDelegate.swift */; };
+		52EDA86B21B5334D00B33FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDA86A21B5334D00B33FB6 /* ViewController.swift */; };
+		52EDA86E21B5334D00B33FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDA86C21B5334D00B33FB6 /* Main.storyboard */; };
+		52EDA87021B5334F00B33FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52EDA86F21B5334F00B33FB6 /* Assets.xcassets */; };
+		52EDA87321B5334F00B33FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52EDA87121B5334F00B33FB6 /* LaunchScreen.storyboard */; };
+		52EDA87E21B5334F00B33FB6 /* The_Knight_PlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDA87D21B5334F00B33FB6 /* The_Knight_PlanTests.swift */; };
+		52EDA88921B5334F00B33FB6 /* The_Knight_PlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52EDA88821B5334F00B33FB6 /* The_Knight_PlanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52EDA87A21B5334F00B33FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EDA85D21B5334D00B33FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EDA86421B5334D00B33FB6;
+			remoteInfo = "The Knight Plan";
+		};
+		52EDA88521B5334F00B33FB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52EDA85D21B5334D00B33FB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52EDA86421B5334D00B33FB6;
+			remoteInfo = "The Knight Plan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52EDA86521B5334D00B33FB6 /* The Knight Plan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Knight Plan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDA86821B5334D00B33FB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52EDA86A21B5334D00B33FB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52EDA86D21B5334D00B33FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52EDA86F21B5334F00B33FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52EDA87221B5334F00B33FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52EDA87421B5334F00B33FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EDA87921B5334F00B33FB6 /* The Knight PlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Knight PlanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDA87D21B5334F00B33FB6 /* The_Knight_PlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Knight_PlanTests.swift; sourceTree = "<group>"; };
+		52EDA87F21B5334F00B33FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52EDA88421B5334F00B33FB6 /* The Knight PlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Knight PlanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52EDA88821B5334F00B33FB6 /* The_Knight_PlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Knight_PlanUITests.swift; sourceTree = "<group>"; };
+		52EDA88A21B5334F00B33FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52EDA86221B5334D00B33FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA87621B5334F00B33FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA88121B5334F00B33FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52EDA85C21B5334D00B33FB6 = {
+			isa = PBXGroup;
+			children = (
+				52EDA86721B5334D00B33FB6 /* The Knight Plan */,
+				52EDA87C21B5334F00B33FB6 /* The Knight PlanTests */,
+				52EDA88721B5334F00B33FB6 /* The Knight PlanUITests */,
+				52EDA86621B5334D00B33FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52EDA86621B5334D00B33FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52EDA86521B5334D00B33FB6 /* The Knight Plan.app */,
+				52EDA87921B5334F00B33FB6 /* The Knight PlanTests.xctest */,
+				52EDA88421B5334F00B33FB6 /* The Knight PlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52EDA86721B5334D00B33FB6 /* The Knight Plan */ = {
+			isa = PBXGroup;
+			children = (
+				52EDA86821B5334D00B33FB6 /* AppDelegate.swift */,
+				52EDA86A21B5334D00B33FB6 /* ViewController.swift */,
+				52EDA86C21B5334D00B33FB6 /* Main.storyboard */,
+				52EDA86F21B5334F00B33FB6 /* Assets.xcassets */,
+				52EDA87121B5334F00B33FB6 /* LaunchScreen.storyboard */,
+				52EDA87421B5334F00B33FB6 /* Info.plist */,
+			);
+			path = "The Knight Plan";
+			sourceTree = "<group>";
+		};
+		52EDA87C21B5334F00B33FB6 /* The Knight PlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				52EDA87D21B5334F00B33FB6 /* The_Knight_PlanTests.swift */,
+				52EDA87F21B5334F00B33FB6 /* Info.plist */,
+			);
+			path = "The Knight PlanTests";
+			sourceTree = "<group>";
+		};
+		52EDA88721B5334F00B33FB6 /* The Knight PlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52EDA88821B5334F00B33FB6 /* The_Knight_PlanUITests.swift */,
+				52EDA88A21B5334F00B33FB6 /* Info.plist */,
+			);
+			path = "The Knight PlanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52EDA86421B5334D00B33FB6 /* The Knight Plan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDA88D21B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight Plan" */;
+			buildPhases = (
+				52EDA86121B5334D00B33FB6 /* Sources */,
+				52EDA86221B5334D00B33FB6 /* Frameworks */,
+				52EDA86321B5334D00B33FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Knight Plan";
+			productName = "The Knight Plan";
+			productReference = 52EDA86521B5334D00B33FB6 /* The Knight Plan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52EDA87821B5334F00B33FB6 /* The Knight PlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDA89021B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight PlanTests" */;
+			buildPhases = (
+				52EDA87521B5334F00B33FB6 /* Sources */,
+				52EDA87621B5334F00B33FB6 /* Frameworks */,
+				52EDA87721B5334F00B33FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EDA87B21B5334F00B33FB6 /* PBXTargetDependency */,
+			);
+			name = "The Knight PlanTests";
+			productName = "The Knight PlanTests";
+			productReference = 52EDA87921B5334F00B33FB6 /* The Knight PlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52EDA88321B5334F00B33FB6 /* The Knight PlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52EDA89321B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight PlanUITests" */;
+			buildPhases = (
+				52EDA88021B5334F00B33FB6 /* Sources */,
+				52EDA88121B5334F00B33FB6 /* Frameworks */,
+				52EDA88221B5334F00B33FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52EDA88621B5334F00B33FB6 /* PBXTargetDependency */,
+			);
+			name = "The Knight PlanUITests";
+			productName = "The Knight PlanUITests";
+			productReference = 52EDA88421B5334F00B33FB6 /* The Knight PlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52EDA85D21B5334D00B33FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Code Avenue";
+				TargetAttributes = {
+					52EDA86421B5334D00B33FB6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					52EDA87821B5334F00B33FB6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 52EDA86421B5334D00B33FB6;
+					};
+					52EDA88321B5334F00B33FB6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 52EDA86421B5334D00B33FB6;
+					};
+				};
+			};
+			buildConfigurationList = 52EDA86021B5334D00B33FB6 /* Build configuration list for PBXProject "The Knight Plan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52EDA85C21B5334D00B33FB6;
+			productRefGroup = 52EDA86621B5334D00B33FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52EDA86421B5334D00B33FB6 /* The Knight Plan */,
+				52EDA87821B5334F00B33FB6 /* The Knight PlanTests */,
+				52EDA88321B5334F00B33FB6 /* The Knight PlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52EDA86321B5334D00B33FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDA87321B5334F00B33FB6 /* LaunchScreen.storyboard in Resources */,
+				52EDA87021B5334F00B33FB6 /* Assets.xcassets in Resources */,
+				52EDA86E21B5334D00B33FB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA87721B5334F00B33FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA88221B5334F00B33FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52EDA86121B5334D00B33FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDA86B21B5334D00B33FB6 /* ViewController.swift in Sources */,
+				52EDA86921B5334D00B33FB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA87521B5334F00B33FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDA87E21B5334F00B33FB6 /* The_Knight_PlanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52EDA88021B5334F00B33FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52EDA88921B5334F00B33FB6 /* The_Knight_PlanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52EDA87B21B5334F00B33FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EDA86421B5334D00B33FB6 /* The Knight Plan */;
+			targetProxy = 52EDA87A21B5334F00B33FB6 /* PBXContainerItemProxy */;
+		};
+		52EDA88621B5334F00B33FB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52EDA86421B5334D00B33FB6 /* The Knight Plan */;
+			targetProxy = 52EDA88521B5334F00B33FB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52EDA86C21B5334D00B33FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDA86D21B5334D00B33FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52EDA87121B5334F00B33FB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52EDA87221B5334F00B33FB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52EDA88B21B5334F00B33FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52EDA88C21B5334F00B33FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52EDA88E21B5334F00B33FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight Plan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-Plan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52EDA88F21B5334F00B33FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight Plan/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-Plan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52EDA89121B5334F00B33FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight PlanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-PlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Knight Plan.app/The Knight Plan";
+			};
+			name = Debug;
+		};
+		52EDA89221B5334F00B33FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight PlanTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-PlanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Knight Plan.app/The Knight Plan";
+			};
+			name = Release;
+		};
+		52EDA89421B5334F00B33FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight PlanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-PlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Knight Plan";
+			};
+			name = Debug;
+		};
+		52EDA89521B5334F00B33FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "The Knight PlanUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codeavenue.The-Knight-PlanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Knight Plan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52EDA86021B5334D00B33FB6 /* Build configuration list for PBXProject "The Knight Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDA88B21B5334F00B33FB6 /* Debug */,
+				52EDA88C21B5334F00B33FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDA88D21B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight Plan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDA88E21B5334F00B33FB6 /* Debug */,
+				52EDA88F21B5334F00B33FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDA89021B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight PlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDA89121B5334F00B33FB6 /* Debug */,
+				52EDA89221B5334F00B33FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52EDA89321B5334F00B33FB6 /* Build configuration list for PBXNativeTarget "The Knight PlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EDA89421B5334F00B33FB6 /* Debug */,
+				52EDA89521B5334F00B33FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52EDA85D21B5334D00B33FB6 /* Project object */;
+}
